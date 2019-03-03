@@ -1,0 +1,12 @@
+.container{
+    display: flex;  
+}
+
+.nav-bar{
+    flex-direction: row;
+}
+
+.nav-item{
+    justify-content:center; 
+    border: solid black;
+}

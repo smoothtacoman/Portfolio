@@ -1,12 +1,33 @@
-.container{
-    display: flex;  
+body {
+  height: 100vh;
+}
+.container {
+  width: 100%;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  height: 20%;
 }
 
-.nav-bar{
-    flex-direction: row;
+.nav-item {
+  border: solid black;
+  width: 100%;
+  text-align: center;
 }
 
-.nav-item{
-    justify-content:center; 
-    border: solid black;
+.summary {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  border: solid black;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
 }

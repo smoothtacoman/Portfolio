@@ -14,9 +14,12 @@ body {
   width: 100%;
 }
 
-.summary,.header,.carousel-container,.contact-container{
-    margin: auto;
-    width: 90%
+.summary,
+.header,
+.carousel-container,
+.contact-container {
+  margin: auto;
+  width: 90%;
 }
 .nav-bar {
   display: flex;
@@ -59,14 +62,15 @@ body {
 .carousel-container {
   display: flex;
   justify-content: space-between;
-  height: 1000px;
+  height: 550px;
   border: solid;
 }
 
 .contact-container {
   display: flex;
   justify-content: center;
-
+  margin-bottom: 20px;
+  height: 30px;
 }
 
 .contact-item {
@@ -76,13 +80,27 @@ body {
   border: solid;
 }
 
+#contact-item {
+  border-bottom-left-radius: 8px;
+}
+
+#linkedin-item {
+  border-bottom-right-radius: 8px;
+}
+
 .footer {
   display: flex;
-  justify-content: center;
-background-color: black;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-items: flex-end;
+  padding-top: 10px;
+  background-color: rgb(255, 255, 255);
   border: solid;
   clear: both;
   position: relative;
-  height: 40px;
-  margin-top: -40px;
- }
+  height: 50px;
+  margin-top: -50px;
+}
+
+.footer-item {
+}

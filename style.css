@@ -51,19 +51,26 @@ body {
   justify-content: center;
   height: 100px;
   margin-bottom: 35px;
+
 }
 .summary-header {
   border: solid;
   height: 35px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .summary-content {
   border: solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .header {
   display: flex;
   justify-content: center;
   border: solid black;
   height: 50px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .carousel-container {
@@ -71,6 +78,9 @@ body {
   justify-content: space-between;
   height: 550px;
   border: solid;
+  margin-bottom: 55px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .contact-container {

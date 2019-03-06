@@ -79,10 +79,25 @@ body {
     width: 100%;
 }
 .slide-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     width: 100%;
-
 }
 
+.slides{
+    margin: 10px;
+    margin-bottom: 100px;
+    height:300px;
+    width: 40%;
+    border:solid white ;
+}
+.img{
+    min-height: 180px;
+    min-width: 400px;
+    max-width: 400px;
+    max-height: 180px;
+}
 .contact-container {
   display: flex;
   justify-content: center;

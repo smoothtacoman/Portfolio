@@ -68,9 +68,19 @@ body {
 
 .project-container {
   display: flex;
-  justify-content: space-between;
-  height: 550px;
+  justify-content:flex-start;
+  flex-wrap: wrap;
   margin-bottom: 55px;
+}
+
+
+.project-paragraph{
+    height:100px;
+    width: 100%;
+}
+.slide-container{
+    width: 100%;
+
 }
 
 .contact-container {

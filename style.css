@@ -10,7 +10,8 @@ body {
   height: 100%;
   min-height: 100%;
   margin: auto;
-  background: #92898a;
+  background: #ffffffd3;
+  background: url("/assets/img/tweed.png");
 }
 .container {
   width: 100%;
@@ -61,10 +62,14 @@ body {
 }
 .summary-content,
 .project-container {
-  background-color: rgb(46, 46, 46);
+  background-color: rgb(172, 71, 71);
   color: white;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+.summary{
+ margin: 15px;
 }
 
 .project-container {
@@ -77,6 +82,7 @@ body {
 .project-paragraph {
   height: 100px;
   width: 100%;
+  margin: 15px;
 }
 .slide-container {
   display: flex;
@@ -153,29 +159,11 @@ body {
 
 #contact-item {
   border-bottom-left-radius: 5px;
-  border-right: none;
-  border-top: none;
-  border: solid black;
+
 }
 
-#email-item {
-  border: solid black;
-  border-right: none;
-  border-left: none;
-  border-top: none;
-}
-
-#github-item {
-  border: solid black;
-  border-right: none;
-  border-left: none;
-  border-top: none;
-}
 #linkedin-item {
   border-bottom-right-radius: 5px;
-  border: solid black;
-  border-left: none;
-  border-top: none;
 }
 
 .footer {

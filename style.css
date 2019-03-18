@@ -79,7 +79,7 @@ body {
 }
 .summary-header,
 .header {
-  height: 35px;
+  height: 25px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   background-color: rgb(233, 233, 233);
@@ -119,11 +119,19 @@ body {
   text-align: center;
   margin: 10px;
   margin-bottom: 25px;
-  height: 300px;
-  width: 80%;
+  height: 250px;
+  width: 70%;
   border: solid white;
   border-radius: 15px;
   overflow: hidden;
+}
+
+.caption{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 20%;
+  
 }
 
 .demo-button {
@@ -151,11 +159,14 @@ body {
 #button-three-container,
 #button-four-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
+
 .img {
-  min-height: 200px;
-  min-width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  min-height: 250px;
+  min-width: 60%;
   max-width: 50%;
   max-height: 200px;
 }
@@ -173,7 +184,7 @@ body {
   background-color: rgb(46, 46, 46);
   color: white;
   font-size: 16px;
-  padding-top: 10px;
+  padding-top: 12px;
 }
 
 .contact-item:hover {
@@ -181,7 +192,9 @@ body {
 }
 
 #contact-item {
+  padding-bottom: 10px;
   border-bottom-left-radius: 5px;
+  
 }
 
 #contact-item:hover {

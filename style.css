@@ -10,9 +10,10 @@ body {
   height: 100%;
   min-height: 100%;
   margin: auto;
-  background: url("/assets/img/stardust.png");
-
+  background: darkslategray;
+ 
 }
+
 .container {
   width: 100%;
 }
@@ -24,7 +25,9 @@ body {
 .contact-container {
   margin: auto;
   width: 80%;
+
 }
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -34,13 +37,12 @@ body {
 .logo {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   color: rgb(255, 255, 255);
   text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000,
     0.5px 0.5px 0 #000;
-  padding-top: 20px;
-  background-color:firebrick;
   width: 100%;
-  height: 80px;
+  height: 70px;
   font-size: 30px;
 }
 
@@ -52,44 +54,86 @@ body {
 }
 
 .nav-item {
-  color: rgb(0, 0, 0);
-  /* text-shadow: -0.5px -0.5px 0 rgb(119, 119, 119), 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000,
-    0.5px 0.5px 0 #000; */
-  padding-top: 25px;
   display: flex;
   justify-content: center;
-  background-color: firebrick;
-  border-right:solid gray;
+  align-items: center;
+  font-size: 16px;
   width: 100%;
-  height: 80px;
-  font-size: 20px;
-  
+  height: 70px;
+  color: rgb(0, 0, 0);
 }
 
 .nav-item:hover {
-  background-color: rgb(221, 221, 221);
+  background-color: rgb(0, 0, 0);
+  color: white;
+  transition: all  1s ease;
+
 }
 
-.summary-header,.summary-container {
+.contact-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+  height: 50px;
+  width: 85%;
+}
+
+
+.contact-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+}
+
+.contact-item:hover {
+  background: #000000;
+  color: white;
+  transition: all  1s ease;
+}
+
+#contact-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  width: 25%;
+  border-bottom-left-radius: 5px;
+}
+
+#linkedin-item {
+  border-bottom-right-radius: 5px;
+}
+
+.summary-header{
+  margin-top: 200px;
+}
+.summary-header,
+.summary-container {
   display: flex;
   height: 100px;
 }
 
-.summary-container{
+.summary-container {
+  height: 300px;
   margin-bottom: 35px;
 }
 
 .summary-header,
 .header {
   height: 25px;
-  background-color: white;
-  
 }
 .summary-content,
 .project-container {
-  background-color: lightgoldenrodyellow;
+  background-color: white;
   color: black;
-  box-shadow: 0px 5px 15px 3px rgba(46, 46, 46, 0.55);
+  border-radius: 8px;
+
 }
 
 .summary {
@@ -110,21 +154,20 @@ body {
 }
 .slide-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   height: auto;
   flex-wrap: wrap;
-  margin-left: 60px;
   width: 100%;
 }
 
 .slides {
-  background-color: #000000;
-  box-shadow: 0px 3px 30px 3px rgba(0, 0, 0, 0.55);
+  background-color:rgb(68,67,73);
   text-align: center;
-  margin: 10px;
+  margin: 50px;
   margin-bottom: 25px;
-  width: 60%;
+  width: 40%;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 .caption {
@@ -137,7 +180,7 @@ body {
 .demo-button {
   font-family: "Roboto", sans-serif;
   padding: 0.35em 1.2em;
-  border: 0.1em solid firebrick;
+  border: 0.1em solid white;
   margin: 0 0.3em 0.3em 0;
   border-radius: 0.12em;
   box-sizing: border-box;
@@ -175,50 +218,19 @@ body {
   width: 50%;
   margin-top: 200px;
 }
-.contact-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 35px;
-  height: 50px;
-  width: 85%;
-}
 
-
-.contact-item {
-  display: flex;
-  justify-content: center;
-  width: 25%;
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 16px;
-  padding-top: 12px;
-}
-
-.contact-item:hover {
-  color: silver;
-}
-
-#contact-item {
-  padding-bottom: 10px;
-  border-bottom-left-radius: 5px;
-}
-
-#contact-item:hover {
-  color: white;
-}
-
-#linkedin-item {
-  border-bottom-right-radius: 5px;
-}
 
 .footer {
   display: flex;
   justify-content: space-around;
   padding-top: 10px;
-  background-color: firebrick;
-  color: white;
+  background-color: black;
   clear: both;
   position: relative;
   height: 40px;
   margin-top: -40px;
+}
+
+.footer-item{
+  color: black;
 }

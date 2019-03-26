@@ -10,8 +10,7 @@ body {
   height: 100%;
   min-height: 100%;
   margin: auto;
-  background: darkslategray;
- 
+  background: rgb(0, 128, 128);
 }
 
 .container {
@@ -21,17 +20,18 @@ body {
 .summary-container,
 .summary-header,
 .header,
+.project-paragraph,
 .project-container,
 .contact-container {
   margin: auto;
   width: 80%;
-
 }
 
 .nav-bar {
   display: flex;
   justify-content: space-between;
   font-family: "Roboto Slab", serif;
+  z-index: 999;
 }
 
 .logo {
@@ -66,18 +66,15 @@ body {
 .nav-item:hover {
   background-color: rgb(0, 0, 0);
   color: white;
-  transition: all  1s ease;
-
+  transition: all 1s ease;
 }
 
 .contact-container {
   display: flex;
-  justify-content: center;
   margin-bottom: 35px;
   height: 50px;
   width: 85%;
 }
-
 
 .contact-item {
   display: flex;
@@ -92,7 +89,7 @@ body {
 .contact-item:hover {
   background: #000000;
   color: white;
-  transition: all  1s ease;
+  transition: all 1s ease;
 }
 
 #contact-item {
@@ -110,8 +107,8 @@ body {
   border-bottom-right-radius: 5px;
 }
 
-.summary-header{
-  margin-top: 200px;
+.summary-header {
+  margin-top: 140px;
 }
 .summary-header,
 .summary-container {
@@ -128,16 +125,37 @@ body {
 .header {
   height: 25px;
 }
+
+.summary-header,
+.project-paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 80px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
 .summary-content,
 .project-container {
   background-color: white;
   color: black;
   border-radius: 8px;
-
 }
 
 .summary {
   margin: 15px;
+}
+
+.summary-list {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.summary-list li {
+  margin-bottom: 20px;
+}
+.project-paragraph {
 }
 
 .project-container {
@@ -147,11 +165,6 @@ body {
   margin-bottom: 55px;
 }
 
-.project-paragraph {
-  height: 100px;
-  width: 100%;
-  margin: 15px;
-}
 .slide-container {
   display: flex;
   justify-content: center;
@@ -161,7 +174,7 @@ body {
 }
 
 .slides {
-  background-color:rgb(68,67,73);
+  background-color: rgb(68, 67, 73);
   text-align: center;
   margin: 50px;
   margin-bottom: 25px;
@@ -219,11 +232,9 @@ body {
   margin-top: 200px;
 }
 
-
 .footer {
   display: flex;
-  justify-content: space-around;
-  padding-top: 10px;
+  justify-content: space-between;
   background-color: black;
   clear: both;
   position: relative;
@@ -231,6 +242,17 @@ body {
   margin-top: -40px;
 }
 
-.footer-item{
-  color: black;
+.footer-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100%;
+  width: 20%;
+}
+
+.footer-item:hover {
+  background-color: darkslategray;
+  color: white;
+  transition: all 1s ease;
 }

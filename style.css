@@ -65,7 +65,7 @@ body {
 }
 
 .nav-item:hover {
-  background-color: rgb(219,128,128);
+  background-color: black;
   color: white;
   transition: all 1s ease;
 }
@@ -263,3 +263,14 @@ body {
   color: white;
   transition: all 1s ease;
 }
+
+
+@media (max-width: 40em) {
+  .svg {
+  display:none;
+  }
+
+  .summary-header{
+    margin-top: 100px;
+  }
+  }

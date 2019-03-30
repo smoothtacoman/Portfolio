@@ -19,10 +19,12 @@
   </head>
   <body>
     <div class="container">
+      <div class ="teal-container">
+      
       <!--Navbar-->
       <div class="nav-bar">
         <a href="#" class="logo">
-          <p style="margin-left: 40px;">juan-toledo.com</p>
+          <p style="margin-left: 40px;">juan-toledo.com<i id="frog" class="fas fa-frog"></i></p>
         </a>
         <div class="item-container">
           <a href="#" class="nav-item">About</a>
@@ -89,111 +91,45 @@
         </div>
       </div>
 
-      <!--Carousel of Projects-->
-  
- 
-
-        <div class="project-paragraph">
-          <p>Portfolio of Projects</p>
-        </div>
 
 
-        <div class="project-container">
-        <!--Slide 1-->
-        <div class="slide-container">
-          <div class="slides">
-            <!-- <div class="caption">Toledo's Plants</div> -->
-            <img class="img" src="/assets/img/toldeosplants.PNG" />
-            <div class="project-description">Hi</div>
 
-            <div id="button-one-container">
-              <a
-                href="https://toledos-plants.herokuapp.com/"
-                target="_blank"
-                class="demo-button"
-                >Demo</a
-              >
+      <div class="slideshow-container">
 
-              <a
-                href="https://github.com/smoothtacoman/Plants-Project"
-                target="_blank"
-                class="demo-button"
-                >Code</a
-              >
-            </div>
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="./assets/img/toldeosplants.PNG" style="width:100%">
+            <div class="text">Toledos Plants</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="./assets/img/simpsonsapp.PNG" style="width:100%">
+            <div class="text">Simpsons App</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="./assets/img/justdrive.PNG" style="width:100%">
+            <div class="text">Just Drive</div>
           </div>
 
-          <!--Slide 2-->
-          <div class="slides">
-            <!-- <div class="caption">Simpson's Click Game</div> -->
-            <img src="/assets/img/simpsonsapp.PNG" class="img" />
-            <div class="project-description">Hi</div>
-            <div id="button-two-container">
-              <a
-                href="https://smoothtacoman.github.io/Clicky-Game/"
-                target="_blank"
-                class="demo-button"
-                >Demo</a
-              >
-
-              <a
-                href="https://github.com/smoothtacoman/Clicky-Game"
-                target="_blank"
-                class="demo-button"
-                >Code</a
-              >
+          <div class="mySlides fade">
+              <div class="numbertext">4 / 4</div>
+              <img src="./assets/img/toldeosplants.PNG" style="width:100%">
+              <div class="text">Toledos Plants</div>
             </div>
+          
           </div>
-          <!--Slide 3-->
-
-          <div class="slides">
-            <!-- <div class="caption">Just Drive</div> -->
-            <img
-              src="/assets/img/justdrive.PNG"
-              class="img"
-              
-            />
-
-            <div class="project-description">Hi</div>
-            <div id="button-three-container">
-              <a
-                href="https://limitless-plateau-39760.herokuapp.com/"
-                target="_blank"
-                class="demo-button"
-                >Demo</a
-              >
-
-              <a
-                href="https://github.com/Noahzb/project_2"
-                target="_blank"
-                class="demo-button"
-                >Code</a
-              >
-            </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
           </div>
-          <!--Slide 4-->
-          <div class="slides">
-            <!-- <div class="caption">Friend Finder</div> -->
-            <img src="https://placeholder.com/250" class="img" />
-            <div class="project-description">Hi</div>
-            <div id="button-four-container">
-              <a
-                href="https://limitless-plateau-39760.herokuapp.com/"
-                target="_blank"
-                class="demo-button"
-                >Demo</a
-              >
-
-              <a
-                href="https://github.com/Noahzb/project_2"
-                target="_blank"
-                class="demo-button"
-                >Code</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
+          
+      
     
       <!---Footer-->
       <footer class="footer">
@@ -213,5 +149,28 @@
         >
       </footer>
     </div>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 5000); // Change image every 2 seconds
+        }
+        </script>
+        
   </body>
 </html>

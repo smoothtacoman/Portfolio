@@ -22,11 +22,11 @@ body {
 .summary-container,
 .summary-header,
 .header,
-.project-paragraph,
+.project-header,
 .project-container,
 .contact-container {
   margin: auto;
-  width: 80%;
+  width: 70%;
 }
 
 .nav-bar {
@@ -141,7 +141,7 @@ body {
 }
 
 .summary-header,
-.project-paragraph {
+.project-header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -157,8 +157,7 @@ body {
   font-size: 40px;
   background-color: #EFFCF6;
 }
-.summary-content
-/* .project-container */{ 
+.summary-content{ 
   background-color: white;
   color: black;
   border-radius: 8px;
@@ -179,37 +178,13 @@ body {
   margin-bottom: 20px;
 }
 
-/* .project-container {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  margin-bottom: 55px;
-} */
+#project-container{
+  margin-bottom: 200px;
+  background: #000;
+  height: 800px;
 
-/* .slide-container {
-  display: flex;
-  justify-content: center;
-  height: auto;
-  flex-wrap: wrap;
-  width: 100%;
 }
 
-.slides {
-  background-color: rgb(68, 67, 73);
-  text-align: center;
-  margin: 50px;
-  margin-bottom: 25px;
-  width: 40%;
-  overflow: hidden;
-  border-radius: 10px;
-} */
-
-.caption {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  width: 20%;
-}
 
 .demo-button {
   font-family: "Roboto", sans-serif;
@@ -246,12 +221,6 @@ body {
   float: left;
 }
 
-.project-description {
-  display: flex;
-  justify-content: center;
-  width: 50%;
-  margin-top: 200px;
-}
 
 .footer {
   display: flex;
@@ -290,6 +259,4 @@ body {
   }
 
 
-
-  /* Carousel */
   

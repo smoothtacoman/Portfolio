@@ -181,16 +181,14 @@ body {
 #project-container{
   margin-bottom: 200px;
   background: #000;
-  height: 800px;
-
 }
 
 
 .demo-button {
+  width: 150px;
   font-family: "Roboto", sans-serif;
   padding: 0.35em 1.2em;
   border: 0.1em solid white;
-  margin: 0 0.3em 0.3em 0;
   border-radius: 0.12em;
   box-sizing: border-box;
   text-decoration: none;
@@ -206,20 +204,7 @@ body {
   background-color: #ffffff;
 }
 
-#button-one-container,
-#button-two-container,
-#button-three-container,
-#button-four-container {
-  display: flex;
-  justify-content: center;
-  width: 50%;
-}
 
-.img {
-  height: auto;
-  width: 50%;
-  float: left;
-}
 
 
 .footer {
@@ -245,6 +230,21 @@ body {
   background-color: darkslategray;
   color: white;
   transition: all 1s ease;
+}
+
+/* Carousel */
+.w3-content{
+  height: 700px;
+  max-width: 70%;
+  border-radius: 8px;
+}
+
+
+.button-container{
+ display: flex;
+ justify-content: center;
+ margin: 0;
+
 }
 
 

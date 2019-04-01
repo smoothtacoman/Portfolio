@@ -76,6 +76,7 @@ body {
 .nav-item:hover {
   background-color: rgb(40,47,57);
   color: white;
+  font-size: 17px;
   transition: all 1s ease;
 }
 
@@ -96,8 +97,9 @@ body {
 }
 
 .contact-item:hover {
-  background: #000000;
+  background:transparent;
   color: white;
+  font-size: 17px;
   transition: all 1s ease;
 }
 

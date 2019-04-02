@@ -253,11 +253,15 @@ body {
   max-width: 70%;
   padding-top: 20px;
   border-radius: 8px;
+  display: table;
 }
 
 .slide-caption {
+  height: 100px;
+  margin-top: 20px;
   margin-left: 30px;
   color: white;
+  display: table-row;
 }
 
 .button-container {

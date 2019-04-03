@@ -278,6 +278,7 @@ body {
   .logo{
     font-size: 35px;
     justify-content: center;
+    align-items: center;
     width: 100%;
   }
 
@@ -298,7 +299,6 @@ body {
   .contact-container{
     display: flex;
     flex-wrap: wrap;
-   
     margin-bottom: 40px;
     width: 100%;
   }
@@ -306,6 +306,7 @@ body {
   #contact-item{
     height: 50px;
     flex-basis: 100%;
+    border-bottom-left-radius: 0%;
   }
 
   .contact-item{
@@ -327,11 +328,16 @@ body {
     width: 90%;
     margin-top: 200px;
     font-size: 25px;
+    
 
   }
 
   .summary-container{
     width: 90%;
+    display: table;
+  }
+  .summary-content{
+    display: table-row;
   }
 
   .project-header{
@@ -341,6 +347,26 @@ body {
 
   .w3-content{
     width: 90%;
+    height: 400px;;
+  }
+
+  img{
+    height: 200px;
+  }
+
+  .slide-caption{
+
+  }
+
+  .footer{
+   flex-wrap:wrap; 
+  }
+
+  .footer-item{
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    width: 100%;
   }
 
  

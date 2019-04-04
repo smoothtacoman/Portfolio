@@ -250,18 +250,21 @@ body {
 
 /* Carousel */
 .w3-content {
-  height: 700px;
+  height: 750px;
   min-width: 70%;
   padding-top: 20px;
   border-radius: 8px;
+  text-align: center;
 
 }
 
 .slide-caption {
-  height: 100px;
-  width: 80;
-  margin-top: 20px;
-  text-align: center;
+  display: inline-block;
+  text-align: left;
+  height: 70px;
+  width: 80%;
+  margin: 15px;
+  margin-top: 10px;
   color: white;
 }
 

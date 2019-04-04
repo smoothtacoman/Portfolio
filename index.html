@@ -1,158 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Juan Toledo</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Juan Toledo</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="container">
+      <div class="teal-container">
+        <!--Navbar-->
+        <div class="nav-bar">
+          <a href="#" class="logo">
+            <p style="margin-left: 40px;">
+              juan-toledo.com<i id="frog" class="fas fa-frog"></i>
+            </p>
+          </a>
+          <div class="item-container">
+            <a href="#about-juan" class="nav-item">About</a>
 
+            <a href="#project-header" class="nav-item">
+              Projects
+            </a>
 
-</head>
+            <a href="/assets/Juan Toledo Resume.pdf" class="nav-item">
+              Resume
+            </a>
+          </div>
+        </div>
 
-<body>
-  <div class="container">
-    <div class="teal-container">
-
-      <!--Navbar-->
-      <div class="nav-bar">
-        <a href="#" class="logo">
-          <p style="margin-left: 40px;">juan-toledo.com<i id="frog" class="fas fa-frog"></i></p>
-        </a>
-        <div class="item-container">
-          <a href="#about-juan" class="nav-item">About</a>
-
-          <a href="#project-header" class="nav-item">
-            Projects
+        <!--Contact Information-->
+        <div class="contact-container">
+          <p id="contact-item">Contact Information</p>
+          <a
+            href="mailto:toledojuan144@gmail.com"
+            id="email-item"
+            class="contact-item"
+            ><i class="fas fa-envelope-square">&nbsp Email Me</i>
           </a>
 
-          <a href="/assets/Juan Toledo Resume.pdf" class="nav-item">
-            Resume
+          <a
+            href="https://github.com/smoothtacoman"
+            id="github-item"
+            class="contact-item"
+            ><i class="fab fa-github-square">&nbsp Github</i>
           </a>
+          <a
+            href="https://www.linkedin.com/in/juan-toledo-265095177/"
+            id="linkedin-item"
+            class="contact-item"
+            ><i class="fab fa-linkedin">&nbsp Linkedin</i>
+          </a>
+        </div>
+
+        <!-- SVG IMAGE -->
+
+        <div class="svg-container">
+          <img src="assets/img/drawing19.svg" alt="svg" class="svg" />
+        </div>
+
+        <!-- Summary -->
+
+        <div class="summary-header" id="about-juan">
+          <strong>About Juan Toledo</strong>
+        </div>
+        <div class="summary-container">
+          <div class="summary-content">
+            <p class="summary">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+              similique nam natus molestiae deleniti sed at ipsum, quaerat
+              quibusdam voluptatibus voluptate ut harum? Laudantium ducimus
+              obcaecati quas quisquam explicabo nobis!
+            </p>
+
+            <p class="summary" style="margin-top: 40px;">Technical Skills:</p>
+            <ul class="summary-list">
+              <li>
+                <strong>Javascript:</strong> ReactJS , API/JSON, jQuery,
+                Node.js, Handlebar.js, Express.js
+              </li>
+              <li>
+                <strong>Web:</strong> Bootstrap, HTML5, CSS, Semantic-UI, Heroku
+                Deployment
+              </li>
+              <li><strong>Databases:</strong> MongoDB, MySQL, Firebase</li>
+              <li><strong>Other:</strong> Verison Control(Git)</li>
+            </ul>
+          </div>
         </div>
       </div>
 
-      <!--Contact Information-->
-      <div class="contact-container">
+      <!-- Projects -->
 
-        <p id="contact-item">Contact Information</p>
-        <a href="mailto:toledojuan144@gmail.com" id="email-item" class="contact-item"><i
-            class="fas fa-envelope-square">&nbsp Email Me</i>
-        </a>
-
-        <a href="https://github.com/smoothtacoman" id="github-item" class="contact-item"><i
-            class="fab fa-github-square">&nbsp Github</i>
-        </a>
-        <a href="https://www.linkedin.com/in/juan-toledo-265095177/" id="linkedin-item" class="contact-item"><i
-            class="fab fa-linkedin">&nbsp Linkedin</i>
-        </a>
-      </div>
-
-      <div class="svg-container">
-        <img src="assets/img/drawing19.svg" alt="svg" class="svg">
-      </div>
-
-
-      <div class="summary-header" id="about-juan">
-        <strong>About Juan Toledo</strong> 
-      </div>
-      <div class="summary-container">
-        <div class="summary-content">
-          <p class="summary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-            similique nam natus molestiae deleniti sed at ipsum, quaerat
-            quibusdam voluptatibus voluptate ut harum? Laudantium ducimus
-            obcaecati quas quisquam explicabo nobis!
-          </p>
-
-          <p class="summary" style="margin-top: 40px;">Technical Skills:</p>
-          <ul class="summary-list">
-            <li><strong>Javascript:</strong> ReactJS , API/JSON, jQuery, Node.js, Handlebar.js, Express.js</li>
-            <li><strong>Web:</strong> Bootstrap, HTML5, CSS, Semantic-UI, Heroku Deployment</li>
-            <li><strong>Databases:</strong> MongoDB, MySQL, Firebase</li>
-            <li><strong>Other:</strong> Verison Control(Git)</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-      <p class="project-header" id="project-header"><strong>Projects</strong></p>
-
+      <p class="project-header" id="project-header">
+        <strong>Projects</strong>
+      </p>
 
       <div id="project-container" class="w3-content w3-display-container">
-
         <div class="mySlides">
-          <img src="./assets/img/toldeosplants.PNG" style="width:100%">
-            <p class="slide-caption">E-commerce prototype website that simulates that purchasing process of buying plants online from a nursery business. </p>
+          <img src="./assets/img/toldeosplants.PNG" style="width:100%" />
+          <p class="slide-caption">
+            E-commerce prototype website that simulates that purchasing process
+            of buying plants online from a nursery business.
+          </p>
+
+          <p class="slide-caption">
+            Technology Used: ReactJS, Semantic-UI,MongoDB, Express.js, ES6
+            Javascript
+          </p>
 
           <div class="button-container">
-            <a href="https://toledos-plants.herokuapp.com/" target="_blank" class="demo-button">Demo</a>
+            <a
+              href="https://toledos-plants.herokuapp.com/"
+              target="_blank"
+              class="demo-button"
+              >Demo</a
+            >
 
-            <a href="https://github.com/smoothtacoman/Plants-Project" target="_blank" class="demo-button">Code</a>
-
-          </div>
-        </div>
-
-
-        <div class="mySlides">
-         <img src="./assets/img/simpsonsapp.PNG" style="width:100%">
-         <p class="slide-caption">Friend Finder</p>
-          <div class="button-container">
-            <a href="https://smoothtacoman.github.io/Clicky-Game/" target="_blank" class="demo-button">Demo</a>
-
-            <a href="https://github.com/smoothtacoman/Clicky-Game" target="_blank" class="demo-button">Code</a>
-          </div>
-        </div>
-
-
-        <div class="mySlides">
-           <img src="./assets/img/justdrive.PNG" style="width:100%">
-
-          <p class="slide-caption">Hi</p>
-
-          <div class="button-container">
-            <a href="https://limitless-plateau-39760.herokuapp.com/" target="_blank" class="demo-button">Demo</a>
-            <a href="https://github.com/Noahzb/project_2" target="_blank" class="demo-button">Code</a>
-
+            <a
+              href="https://github.com/smoothtacoman/Plants-Project"
+              target="_blank"
+              class="demo-button"
+              >Code</a
+            >
           </div>
         </div>
 
         <div class="mySlides">
-  
-          <img src="./assets/img/Friend Finder.PNG" style="width:100%">
-            <p class="slide-caption">Hi</p>
-          
+          <img src="./assets/img/simpsonsapp.PNG" style="width:100%" />
+          <p class="slide-caption">
+            A card game inspired by the Simpsons TV show. Don't click the same
+            character twice!
+          </p>
+          <p class="slide-caption">
+            Technology Used: ReactJS,Node.js, Bootstrap
+          </p>
           <div class="button-container">
-            <a href="https://limitless-plateau-39760.herokuapp.com/" target="_blank" class="demo-button">Demo</a>
+            <a
+              href="https://smoothtacoman.github.io/Clicky-Game/"
+              target="_blank"
+              class="demo-button"
+              >Demo</a
+            >
 
-            <a href="https://github.com/Noahzb/project_2" target="_blank" class="demo-button">Code</a>
+            <a
+              href="https://github.com/smoothtacoman/Clicky-Game"
+              target="_blank"
+              class="demo-button"
+              >Code</a
+            >
           </div>
         </div>
 
-        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        <div class="mySlides">
+          <img src="./assets/img/justdrive.PNG" style="width:100%" />
+
+          <p class="slide-caption">
+            Collaborated with a group of developers to create an application
+            where users can create an account and upload their favorite
+            roads/routes they drive on and share it with other users who also
+            enjoy driving on beautiful roads.
+          </p>
+          <p class="slide-caption">
+            Technology Used: Handlebars.js, Express.js, Javascript, MySQL,
+            Google Maps API, Passport Authentication, Node.js, Bootstrap
+          </p>
+
+          <div class="button-container">
+            <a
+              href="https://limitless-plateau-39760.herokuapp.com/"
+              target="_blank"
+              class="demo-button"
+              >Demo</a
+            >
+            <a
+              href="https://github.com/Noahzb/project_2"
+              target="_blank"
+              class="demo-button"
+              >Code</a
+            >
+          </div>
+        </div>
+
+        <div class="mySlides">
+          <img src="./assets/img/Friend Finder.PNG" style="width:100%" />
+          <p class="slide-caption"></p>
+          <p class="slide-caption">Technology Used: Javascript</p>
+
+          <div class="button-container">
+            <a
+              href="https://limitless-plateau-39760.herokuapp.com/"
+              target="_blank"
+              class="demo-button"
+              >Demo</a
+            >
+
+            <a
+              href="https://github.com/Noahzb/project_2"
+              target="_blank"
+              class="demo-button"
+              >Code</a
+            >
+          </div>
+        </div>
+
+        <!-- SlideShow Arrow Buttons -->
+
+        <button
+          class="w3-button w3-black w3-display-left"
+          onclick="plusDivs(-1)"
+        >
+          &#10094;
+        </button>
+        <button
+          class="w3-button w3-black w3-display-right"
+          onclick="plusDivs(1)"
+        >
+          &#10095;
+        </button>
       </div>
-
-
-
 
       <!---Footer-->
       <footer class="footer">
-        <a href="https://github.com/smoothtacoman/Portfolio" class="footer-item"><i class="fas fa-code"></i>&nbsp;Source Code</a>
+        <a href="https://github.com/smoothtacoman/Portfolio" class="footer-item"
+          ><i class="fas fa-code"></i>&nbsp;Source Code</a
+        >
 
-        <a href="mailto:toledojuan144@gmail.com" class="footer-item"><i class="fas fa-envelope-square"></i> &nbsp; Email
-          Me</a>
+        <a href="mailto:toledojuan144@gmail.com" class="footer-item"
+          ><i class="fas fa-envelope-square"></i> &nbsp; Email Me</a
+        >
 
-        <a href="https://github.com/smoothtacoman" class="footer-item"><i class="fab fa-github-square"></i> &nbsp;
-          Github</a>
-        <a href="https://www.linkedin.com/in/juan-toledo-265095177/" class="footer-item"><i class="fab fa-linkedin"></i>
-          &nbsp; Linkedin</a>
+        <a href="https://github.com/smoothtacoman" class="footer-item"
+          ><i class="fab fa-github-square"></i> &nbsp; Github</a
+        >
+        <a
+          href="https://www.linkedin.com/in/juan-toledo-265095177/"
+          class="footer-item"
+          ><i class="fab fa-linkedin"></i> &nbsp; Linkedin</a
+        >
       </footer>
     </div>
 
@@ -161,17 +260,17 @@
       showDivs(slideIndex);
 
       function plusDivs(n) {
-        showDivs(slideIndex += n);
+        showDivs((slideIndex += n));
       }
 
       function showDivs(n) {
         var i;
         var x = document.getElementsByClassName("mySlides");
         if (n > x.length) {
-          slideIndex = 1
+          slideIndex = 1;
         }
         if (n < 1) {
-          slideIndex = x.length
+          slideIndex = x.length;
         }
         for (i = 0; i < x.length; i++) {
           x[i].style.display = "none";
@@ -179,8 +278,5 @@
         x[slideIndex - 1].style.display = "block";
       }
     </script>
-
-
-</body>
-
+  </body>
 </html>

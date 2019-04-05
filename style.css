@@ -147,7 +147,7 @@ body {
 
 .summary-header,
 .header {
-  height: 25px;
+  height: 30px;
 }
 
 .summary-header,
@@ -157,17 +157,14 @@ body {
   align-items: center;
   background-color: rgb(40, 47, 57);
   color: rgb(212, 212, 212);
-  height: 80px;
+  height: 50px;
   border-radius: 8px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   border: #147d64 solid 1.5px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+  font-size: 30px;
 }
 
-.summary-header {
-  font-size: 40px;
-  background-color: rgb(40, 47, 57);
-}
 .summary-content {
   background-color: rgb(40, 47, 57);
   color: white;
@@ -190,9 +187,6 @@ body {
   margin-bottom: 20px;
 }
 
-.project-header{
-  font-size:40px;
-}
 
 #project-container {
   margin-bottom: 200px;
@@ -255,14 +249,12 @@ body {
   padding-top: 20px;
   border-radius: 8px;
   text-align: center;
-
 }
 
 .slide-caption {
   display: inline-block;
-  text-align: left;
   height: 70px;
-  width: 80%;
+  width: 90%;
   margin: 15px;
   margin-top: 10px;
   color: white;
@@ -334,8 +326,6 @@ body {
     width: 90%;
     margin-top: 200px;
     font-size: 25px;
-    
-
   }
 
   .summary-container{
@@ -353,7 +343,7 @@ body {
 
   .w3-content{
     width: 90%;
-    height: 400px;;
+    height: 560px;;
   }
 
   img{
@@ -361,7 +351,21 @@ body {
   }
 
   .slide-caption{
+    font-size: 14px;
+    width: 90%;
+    margin-top: 25px;;
+  }
 
+  .button-container{
+    flex-wrap: wrap;
+    margin-top: 45px;
+    margin-bottom: 0px;
+
+  }
+  .demo-button{
+
+    
+    width: 100%;
   }
 
   .footer{

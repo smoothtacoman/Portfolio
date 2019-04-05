@@ -175,12 +175,16 @@ body {
 }
 
 .summary {
-  margin: 15px;
+  margin: 0 auto;
+  margin-top: 35px;
+  width: 80%;
 }
 
 .summary-list {
   margin-top: 20px;
-  margin-left: 50px;
+  margin: 0 auto;
+  margin-top: 35px;
+  width: 80%;
 }
 
 .summary-list li {

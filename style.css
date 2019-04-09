@@ -21,7 +21,7 @@ body {
 .teal-container {
   background: url("./assets/img/topography.png");
   box-shadow: inset 0 0 0 1000px rgb(0, 128, 128, 0.781);
-  padding-bottom: 70px;
+  padding-bottom: 260px;
   margin-bottom: 100px;
 }
 .container {
